@@ -14,9 +14,8 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
     { href: "/", label: "Home", icon: <IoHome /> },
-    { href: "/about", label: "About", icon: <FaUserAstronaut /> },
-    { href: "/contact", label: "Contact", icon: <RiContactsBook2Fill /> },
     { href: "/portfolio", label: "Portfolio", icon: <RiGitRepositoryFill /> },
+    { href: "/contact", label: "Contact", icon: <RiContactsBook2Fill /> },
 ]
 
 const inter = Inter({ subsets: ["latin"] })
@@ -26,10 +25,8 @@ function Navbar() {
     const currentHref = router.asPath
 
     return (
-        <nav
-            className={`${inter.className} border fixed top-0 right-0 w-full bg-white`}
-        >
-            <ul className="md:px-10 md:py-5 flex justify-between p-4">
+        <nav className={`${inter.className} border fixed top-0 right-0 w-full bg-white`}>
+            <ul className="md:px-10 md:py-5 flex justify-center gap-10 p-4">
                 {navLinks.map((link) => (
                     <li key={link.href}>
                         <div className={`${currentHref === link.href ? "font-extrabold" : ""}`}>
