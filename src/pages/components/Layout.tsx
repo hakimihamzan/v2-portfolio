@@ -11,7 +11,7 @@ function Layout({ children }: LayoutProps) {
   return (
     <>
       <Navbar />
-      <main className={`${inter.className} mt-20 p-10`}>{children}</main>
+      <main className={`${inter.className} mt-20 p-4 md:p-10`}>{children}</main>
     </>
   )
 }
