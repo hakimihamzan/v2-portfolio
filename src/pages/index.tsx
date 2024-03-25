@@ -23,8 +23,8 @@ const experience = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col md:flex-row m-5 md:mt-16 gap-16 lg:gap-36 lg:mx-20 xl:mx-36">
-      <div className="md:order-last md:w-3/4">
+    <div className="flex flex-col md:flex-row m-5 md:mt-12 gap-8 md:gap-16 lg:gap-36 md:m-2 lg:mx-8 xl:mx-24 2xl:mx-36">
+      <div className="fade-in-top md:order-last md:w-3/4">
         <h1 className="text-2xl md:text-3xl mb-10">My name is Muhamad Hakimi Hamzan.</h1>
         <div className="text-justify">
           <p className="md:text-lg mb-10">
@@ -69,14 +69,16 @@ export default function Home() {
           </table>
         </div>
       </div>
-      <div className="order-first md:order-last md:w-1/4 flex items-center justify-center">
-        <Image
-          className="p-4 rounded-full"
-          src="/portrait.webp"
-          width={300}
-          height={300}
-          alt="My Picture"
-        />
+      <div className="fade-in order-first md:order-last md:w-1/4 flex items-center justify-center">
+        <div className="w-32 md:w-3/4">
+          <Image
+            className="rounded-full"
+            src="/portrait.webp"
+            width={300}
+            height={300}
+            alt="My Picture"
+          />
+        </div>
       </div>
     </div >
   )
