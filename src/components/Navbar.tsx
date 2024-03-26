@@ -25,7 +25,7 @@ function Navbar() {
     const currentHref = router.asPath
 
     return (
-        <nav className={`${inter.className} shadow-md fixed top-0 right-0 w-full bg-white`}>
+        <nav className={`${inter.className} shadow-md fixed top-0 right-0 w-full bg-white z-50`}>
             <ul className="md:px-10 md:py-5 flex justify-center gap-10 p-4">
                 {navLinks.map((link) => (
                     <li key={link.href}>
