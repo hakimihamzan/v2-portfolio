@@ -9,7 +9,7 @@ const experience = [
   },
   {
     company: 'Senfficient',
-    role: 'IOTNodeJs Developer',
+    role: 'IOT NodeJs Developer',
     period: 'Oct 2021 - Jan 2022',
     tech: 'NodeJs, Angular',
   },
