@@ -13,7 +13,6 @@ export default function Portfolio() {
                         style={{
                             height: '270px',
                             objectFit: 'cover',
-                            width: 'min-content'
                         }}
                         src={data[name].snap}
                         width={900}
