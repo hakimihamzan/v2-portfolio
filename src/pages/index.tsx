@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6"
 
 const experience = [
   {
@@ -25,7 +27,17 @@ export default function Home() {
   return (
     <div className="flex flex-col md:flex-row m-5 md:mt-12 gap-8 md:gap-16 lg:gap-36 md:m-2 lg:mx-8 xl:mx-24 2xl:mx-36">
       <div className="fade-in md:order-last md:w-3/4">
-        <h1 className="text-2xl md:text-3xl mb-10">My name is Muhamad Hakimi Hamzan.</h1>
+        <h1 className="text-2xl md:text-3xl mb-10">My name is Muhamad Hakimi Hamzan.
+          <span className="ml-2 inline-flex justify-center items-center gap-1 md:hidden">
+            <a href="https://github.com/hakimihamzan" target="_blank" rel="noopener noreferrer">
+              <FaGithub size="23px" />
+            </a>
+            <a href="https://www.linkedin.com/in/hakimihamzan/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size="27px" color="#0A66C2" />
+            </a>
+          </span>
+        </h1>
+
         <div className="text-justify">
           <p className="md:text-lg mb-10">
             You can call me Kimi (pronounced Key Me).
