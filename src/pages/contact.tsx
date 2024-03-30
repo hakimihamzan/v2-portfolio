@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
     <div className="fade-in p-2 pb-10 md:px-24 lg:px-64 lg:mx-12 xl:px-72 xl:mx-12">
-      <div className="md:text-justify mb-5 text-lg md:text-2xl md:mb-10">The best way to reach me is via email at <a className="underline" href="mailto:hakimihamzan10@gmail.com">hakimihamzan10@gmail.com</a></div>
-      <div className="md:text-justify mb-20 text-lg md:text-2xl">The second best way to reach me is through <a className="underline" href="https://www.linkedin.com/in/hakimihamzan/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
+      <div className="md:text-justify mb-8 text-lg md:text-3xl md:mb-10">The best way to reach me is via email at <a className="underline" href="mailto:hakimihamzan10@gmail.com">hakimihamzan10@gmail.com</a></div>
+      <div className="md:text-justify mb-20 text-lg md:text-3xl">The second best way to reach me is through <a className="underline" href="https://www.linkedin.com/in/hakimihamzan/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
       <div className="p-4 md:p-8 lg:p-10 border rounded-lg shadow-lg">
         <form id="contact">
           <div className="grid gap-6 mb-6 md:grid-cols-2">
