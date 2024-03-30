@@ -105,3 +105,13 @@
     transform: translateY(0);
   }
 }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../public/wave.svg');
+  background-size: cover; /* Stretch the SVG to fill the entire body */
+  background-position: center; /* Center the SVG horizontally and vertically */
+  background-repeat: no-repeat; /* Don't repeat the SVG */
+}
