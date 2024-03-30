@@ -1,9 +1,24 @@
 export default function Contact() {
+  const messages = [
+    "Sike! this form don't do anything yet.",
+    "Whoa there! Hold your horses, this form isn't ready to gallop yet.",
+    "Push the button all you want, but this form is on vacation.",
+    "This form is like a celebrity - too busy to take requests right now.",
+    "Nope! This form is just for show (and maybe a little chuckle).",
+    "This form is currently disabled, but stay tuned for future updates!",
+    "We're working on making this form functional. Check back soon!",
+    "Feeling adventurous? Click the button and see what happens... (nothing)"
+  ];
+
   const submitHandler = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
-    alert('Push the button all you want, but this form is on vacation.')
+    // Get a random index from the messages array
+    const randomIndex = Math.floor(Math.random() * messages.length);
+    const randomMessage = messages[randomIndex];
+
+    alert(randomMessage);
   }
-  
+
   return (
     <div className="fade-in p-2 pb-10 md:px-24 lg:px-64 lg:mx-12 xl:px-72 xl:mx-12">
       <div className="md:text-justify mb-8 text-lg md:text-3xl md:mb-10">The best way to reach me is via email at <a className="underline" href="mailto:hakimihamzan10@gmail.com">hakimihamzan10@gmail.com</a></div>
