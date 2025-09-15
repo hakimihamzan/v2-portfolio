@@ -31,31 +31,22 @@ const iconSvg = {
 }
 
 const data = {
-    portfolio: {
-        title: 'PORTFOLIO',
-        url: 'https://hakimi-portfolio.vercel.app/',
-        codeUrl: 'https://github.com/hakimihamzan/react-portfolio',
-        heading: 'Project portfolio showcase by Hakimi Hamzan',
-        date: 'APR2022',
+    penguin_crm: {
+        title: 'PENGUIN CRM',
+        url: 'https://penguincrm.ofenvw.xyz/dashboard',
+        codeUrl: 'https://github.com/hakimihamzan/penguincrm',
+        heading: 'A CRM built using Laravel Inertia + React + ShadCN by Hakimi Hamzan',
+        date: 'APR2025',
         responsive: true,
-        snap: '/pf.png',
+        snap: '/pn.png',
         notePoint: [
-            'Built with ReactJS, HTML, CSS, MUI.',
-            'Website contain a showcase of projects, provides contact form and ways to get in touch with me.',
+            'Built with ReactJS, Laravel, Inertia, ShadCN.',
+            'A CRM (Customer Relationship Management) system to manage customer data, track interactions, and streamline business processes.',
         ],
         techStack: [
             iconSvg['reactjs'],
-            iconSvg['html'],
-            iconSvg['css'],
-            iconSvg['mui'],
         ],
-        designInspired: [
-            {
-                url: 'https://www.youtube.com/watch?v=G-Cr00UYokU&t=841s',
-                creator: 'Egator',
-                title: 'React Portfolio'
-            },
-        ]
+        designInspired: []
     },
 
     bugstracking: {
@@ -89,6 +80,33 @@ const data = {
                 url: 'https://dribbble.com/shots/6398590-DoneDone-2-Mailbox-Home?showSimilarShots=true&_=1630390033997#',
                 creator: 'PixelMatters',
                 title: 'DoneDone 2'
+            },
+        ]
+    },
+
+    portfolio: {
+        title: 'PORTFOLIO',
+        url: 'https://hakimi-portfolio.vercel.app/',
+        codeUrl: 'https://github.com/hakimihamzan/react-portfolio',
+        heading: 'Project portfolio showcase by Hakimi Hamzan',
+        date: 'APR2022',
+        responsive: true,
+        snap: '/pf.png',
+        notePoint: [
+            'Built with ReactJS, HTML, CSS, MUI.',
+            'Website contain a showcase of projects, provides contact form and ways to get in touch with me.',
+        ],
+        techStack: [
+            iconSvg['reactjs'],
+            iconSvg['html'],
+            iconSvg['css'],
+            iconSvg['mui'],
+        ],
+        designInspired: [
+            {
+                url: 'https://www.youtube.com/watch?v=G-Cr00UYokU&t=841s',
+                creator: 'Egator',
+                title: 'React Portfolio'
             },
         ]
     },
@@ -135,27 +153,8 @@ const data = {
         designInspired: []
     },
 
-    bugstrackingV2: {
-        title: 'V2:Bugs Tracker (WIP)',
-        url: '/',
-        codeUrl: '/',
-        heading: 'Add more features to this bug tracker and redoing it in NextJs.',
-        date: '2024',
-        responsive: true,
-        snap: '/placeholder.jpg',
-        notePoint: [
-            'Built with HTML, CSS, Bootstrap and JavaScript',
-            "JavaScript is used to update the page based on user's interaction",
-        ],
-        techStack: [
-            `<Aarch64Plain size="50"/>`,
-            `<ReactOriginal size="50"/>`,
-        ],
-        designInspired: []
-    },
-    
     blog: {
-        title: 'Blog (WIP)',
+        title: 'Empty',
         url: '/',
         codeUrl: '/',
         heading: 'Written blog for topics that interests me. Writing could be the best to others what you know!',
