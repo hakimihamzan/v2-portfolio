@@ -86,7 +86,7 @@ const data = {
 
     portfolio: {
         title: 'PORTFOLIO',
-        url: 'https://hakimi-portfolio.vercel.app/',
+        url: 'https://v1.hakimihamzan.com/',
         codeUrl: 'https://github.com/hakimihamzan/react-portfolio',
         heading: 'Project portfolio showcase by Hakimi Hamzan',
         date: 'APR2022',
