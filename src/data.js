@@ -33,7 +33,7 @@ const iconSvg = {
 const data = {
     penguin_crm: {
         title: 'PENGUIN CRM',
-        url: 'https://penguincrm.ofenvw.xyz/dashboard',
+        url: 'https://penguincrm.nvoy.cc/dashboard',
         codeUrl: 'https://github.com/hakimihamzan/penguincrm',
         heading: 'A CRM built using Laravel Inertia + React + ShadCN by Hakimi Hamzan',
         date: 'APR2025',
